@@ -1,0 +1,22 @@
+{
+  "entries": {
+    "D:\\TinyLM_Project\\openclaw\\openclaw.local.json5": {
+      "lastKnownGood": {
+        "hash": "90443ae02f58beeaa4dc8d63f6a2ccfa0eee3008d9c6af491a31a01aa37e8191",
+        "bytes": 1144,
+        "mtimeMs": 1777127347331.2957,
+        "ctimeMs": 1777127347331.2957,
+        "dev": "79778419",
+        "ino": "281474977092753",
+        "mode": 438,
+        "nlink": 1,
+        "uid": 0,
+        "gid": 0,
+        "hasMeta": false,
+        "gatewayMode": null,
+        "observedAt": "2026-04-25T14:30:02.691Z"
+      },
+      "lastObservedSuspiciousSignature": null
+    }
+  }
+}

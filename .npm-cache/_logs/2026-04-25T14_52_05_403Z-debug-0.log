@@ -1,0 +1,76 @@
+0 verbose cli D:\TinyLM_Project\tools\node\node.exe D:\TinyLM_Project\tools\node\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:D:\TinyLM_Project\tools\node\node_modules\npm\npmrc
+4 silly config load:file:D:\TinyLM_Project\tools\openclaw\.npmrc
+5 silly config load:file:C:\Users\liu14\.npmrc
+6 silly config load:file:D:\TinyLM_Project\tools\openclaw\etc\npmrc
+7 verbose title npm install openclaw@latest
+8 verbose argv "install" "--prefix" "D:\\TinyLM_Project\\tools\\openclaw" "openclaw@latest"
+9 verbose logfile logs-max:10 dir:D:\TinyLM_Project\.npm-cache\_logs\2026-04-25T14_52_05_403Z-
+10 verbose logfile D:\TinyLM_Project\.npm-cache\_logs\2026-04-25T14_52_05_403Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly packumentCache corgi:https://registry.npmjs.org/openclaw cache-miss
+14 silly logfile done cleaning log files
+15 http fetch GET 200 https://registry.npmjs.org/openclaw 1094ms (cache updated)
+16 silly packumentCache corgi:https://registry.npmjs.org/openclaw set size:undefined disposed:false
+17 silly idealTree buildDeps
+18 silly fetch manifest openclaw@2026.4.23
+19 silly packumentCache full:https://registry.npmjs.org/openclaw cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/openclaw 1850ms (cache updated)
+21 silly packumentCache full:https://registry.npmjs.org/openclaw set size:undefined disposed:false
+22 silly fetch manifest @napi-rs/canvas@^0.1.89
+23 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas 772ms (cache revalidated)
+25 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas set size:560978 disposed:false
+26 silly fetch manifest node-llama-cpp@3.18.1
+27 silly packumentCache full:https://registry.npmjs.org/node-llama-cpp cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/node-llama-cpp 251ms (cache revalidated)
+29 silly packumentCache full:https://registry.npmjs.org/node-llama-cpp set size:791774 disposed:false
+30 silly fetch manifest typescript@>=5.0.0
+31 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/typescript 280ms (cache revalidated)
+33 silly packumentCache full:https://registry.npmjs.org/typescript set size:15409943 disposed:false
+34 silly placeDep ROOT openclaw@2026.4.23 REPLACE for:  want: 2026.4.23
+35 silly fetch manifest tslib@^2.4.0
+36 silly packumentCache full:https://registry.npmjs.org/tslib cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/tslib 279ms (cache revalidated)
+38 silly packumentCache full:https://registry.npmjs.org/tslib set size:108760 disposed:false
+39 silly placeDep node_modules/@emnapi/runtime tslib@2.8.1 OK for: @emnapi/runtime@1.10.0 want: ^2.4.0
+40 silly fetch manifest minipass@^7.0.4
+41 silly packumentCache full:https://registry.npmjs.org/minipass cache-miss
+42 http fetch GET 200 https://registry.npmjs.org/minipass 275ms (cache revalidated)
+43 silly packumentCache full:https://registry.npmjs.org/minipass set size:276925 disposed:false
+44 silly placeDep node_modules/@isaacs/fs-minipass minipass@7.1.3 OK for: @isaacs/fs-minipass@4.0.1 want: ^7.0.4
+45 silly fetch manifest tslib@^2.0.1
+46 silly packumentCache full:https://registry.npmjs.org/tslib cache-hit
+47 silly placeDep node_modules/ast-types tslib@2.8.1 OK for: ast-types@0.13.4 want: ^2.0.1
+48 silly fetch manifest strip-ansi@^6.0.0
+49 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-miss
+50 http fetch GET 200 https://registry.npmjs.org/strip-ansi 252ms (cache revalidated)
+51 silly packumentCache full:https://registry.npmjs.org/strip-ansi set size:44998 disposed:false
+52 silly placeDep ROOT strip-ansi@6.0.1 OK for: cliui@7.0.4 want: ^6.0.0
+53 verbose stack TypeError: Invalid Version: 
+53 verbose stack     at new SemVer (D:\TinyLM_Project\tools\node\node_modules\npm\node_modules\semver\classes\semver.js:40:13)
+53 verbose stack     at compare (D:\TinyLM_Project\tools\node\node_modules\npm\node_modules\semver\functions\compare.js:5:32)
+53 verbose stack     at Object.gte (D:\TinyLM_Project\tools\node\node_modules\npm\node_modules\semver\functions\gte.js:4:30)
+53 verbose stack     at Node.canDedupe (D:\TinyLM_Project\tools\node\node_modules\npm\node_modules\@npmcli\arborist\lib\node.js:1081:32)
+53 verbose stack     at PlaceDep.pruneDedupable (D:\TinyLM_Project\tools\node\node_modules\npm\node_modules\@npmcli\arborist\lib\place-dep.js:426:14)
+53 verbose stack     at new PlaceDep (D:\TinyLM_Project\tools\node\node_modules\npm\node_modules\@npmcli\arborist\lib\place-dep.js:278:14)
+53 verbose stack     at #buildDepStep (D:\TinyLM_Project\tools\node\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:920:18)
+53 verbose stack     at async Arborist.buildIdealTree (D:\TinyLM_Project\tools\node\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:181:7)
+53 verbose stack     at async Promise.all (index 1)
+53 verbose stack     at async Arborist.reify (D:\TinyLM_Project\tools\node\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:131:5)
+54 error Invalid Version: 
+55 silly unfinished npm timer reify 1777128725705
+56 silly unfinished npm timer reify:loadTrees 1777128725705
+57 silly unfinished npm timer idealTree:buildDeps 1777128726885
+58 silly unfinished npm timer idealTree:node_modules/cliui 1777128730689
+59 verbose cwd D:\TinyLM_Project
+60 verbose os Windows_NT 10.0.26200
+61 verbose node v22.19.0
+62 verbose npm  v10.9.3
+63 verbose exit 1
+64 verbose code 1
+65 error A complete log of this run can be found in: D:\TinyLM_Project\.npm-cache\_logs\2026-04-25T14_52_05_403Z-debug-0.log

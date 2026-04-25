@@ -1,0 +1,266 @@
+0 verbose cli D:\TinyLM_Project\tools\node\node.exe D:\TinyLM_Project\tools\node\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:D:\TinyLM_Project\tools\node\node_modules\npm\npmrc
+4 silly config load:file:D:\TinyLM_Project\tools\openclaw\node_modules\openclaw\dist\extensions\amazon-bedrock\.openclaw-install-stage\.npmrc
+5 silly config load:file:C:\Users\liu14\.npmrc
+6 silly config load:file:D:\TinyLM_Project\tools\node\etc\npmrc
+7 verbose title npm install @aws-sdk/client-bedrock-runtime@3.1033.0 @aws-sdk/client-bedrock@3.1033.0 @aws-sdk/credential-provider-node@3.972.33
+8 verbose argv "install" "--ignore-scripts" "@aws-sdk/client-bedrock-runtime@3.1033.0" "@aws-sdk/client-bedrock@3.1033.0" "@aws-sdk/credential-provider-node@3.972.33"
+9 verbose logfile logs-max:10 dir:D:\TinyLM_Project\.npm-cache\_logs\2026-04-25T14_30_35_812Z-
+10 verbose logfile D:\TinyLM_Project\.npm-cache\_logs\2026-04-25T14_30_35_812Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest @aws-sdk/client-bedrock-runtime@3.1033.0
+15 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fclient-bedrock-runtime cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fclient-bedrock-runtime 1075ms (cache revalidated)
+17 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fclient-bedrock-runtime set size:1527603 disposed:false
+18 silly fetch manifest @aws-sdk/client-bedrock@3.1033.0
+19 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fclient-bedrock cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fclient-bedrock 1098ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fclient-bedrock set size:undefined disposed:false
+22 silly fetch manifest @aws-sdk/credential-provider-node@3.972.33
+23 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-provider-node cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fcredential-provider-node 295ms (cache revalidated)
+25 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-provider-node set size:1829095 disposed:false
+26 silly placeDep ROOT @aws-sdk/client-bedrock@3.1033.0 OK for:  want: 3.1033.0
+27 silly placeDep ROOT @aws-sdk/client-bedrock-runtime@3.1033.0 OK for:  want: 3.1033.0
+28 silly placeDep ROOT @aws-sdk/credential-provider-node@3.972.33 OK for:  want: 3.972.33
+29 silly fetch manifest tslib@^2.6.2
+30 silly packumentCache full:https://registry.npmjs.org/tslib cache-miss
+31 silly fetch manifest @smithy/core@^3.23.15
+32 silly packumentCache full:https://registry.npmjs.org/@smithy%2fcore cache-miss
+33 silly fetch manifest @aws-sdk/core@^3.974.2
+34 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcore cache-miss
+35 silly fetch manifest @smithy/types@^4.14.1
+36 silly packumentCache full:https://registry.npmjs.org/@smithy%2ftypes cache-miss
+37 silly fetch manifest @aws-sdk/types@^3.973.8
+38 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2ftypes cache-miss
+39 silly fetch manifest @smithy/hash-node@^4.2.14
+40 silly packumentCache full:https://registry.npmjs.org/@smithy%2fhash-node cache-miss
+41 silly fetch manifest @smithy/util-utf8@^4.2.2
+42 silly packumentCache full:https://registry.npmjs.org/@smithy%2futil-utf8 cache-miss
+43 silly fetch manifest @smithy/url-parser@^4.2.14
+44 silly packumentCache full:https://registry.npmjs.org/@smithy%2furl-parser cache-miss
+45 silly fetch manifest @smithy/util-retry@^4.3.2
+46 silly packumentCache full:https://registry.npmjs.org/@smithy%2futil-retry cache-miss
+47 silly fetch manifest @smithy/util-base64@^4.3.2
+48 silly packumentCache full:https://registry.npmjs.org/@smithy%2futil-base64 cache-miss
+49 silly fetch manifest @aws-crypto/sha256-js@5.2.0
+50 silly packumentCache full:https://registry.npmjs.org/@aws-crypto%2fsha256-js cache-miss
+51 silly fetch manifest @smithy/protocol-http@^5.3.14
+52 silly packumentCache full:https://registry.npmjs.org/@smithy%2fprotocol-http cache-miss
+53 silly fetch manifest @smithy/smithy-client@^4.12.11
+54 silly packumentCache full:https://registry.npmjs.org/@smithy%2fsmithy-client cache-miss
+55 silly fetch manifest @smithy/util-endpoints@^3.4.1
+56 silly packumentCache full:https://registry.npmjs.org/@smithy%2futil-endpoints cache-miss
+57 silly fetch manifest @aws-sdk/util-endpoints@^3.996.7
+58 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2futil-endpoints cache-miss
+59 silly fetch manifest @smithy/config-resolver@^4.4.16
+60 silly packumentCache full:https://registry.npmjs.org/@smithy%2fconfig-resolver cache-miss
+61 silly fetch manifest @smithy/util-middleware@^4.2.14
+62 silly packumentCache full:https://registry.npmjs.org/@smithy%2futil-middleware cache-miss
+63 silly fetch manifest @aws-sdk/token-providers@3.1033.0
+64 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2ftoken-providers cache-miss
+65 silly fetch manifest @smithy/middleware-retry@^4.5.3
+66 silly packumentCache full:https://registry.npmjs.org/@smithy%2fmiddleware-retry cache-miss
+67 silly fetch manifest @smithy/middleware-serde@^4.2.18
+68 silly packumentCache full:https://registry.npmjs.org/@smithy%2fmiddleware-serde cache-miss
+69 silly fetch manifest @smithy/middleware-stack@^4.2.14
+70 silly packumentCache full:https://registry.npmjs.org/@smithy%2fmiddleware-stack cache-miss
+71 silly fetch manifest @smithy/node-http-handler@^4.5.3
+72 silly packumentCache full:https://registry.npmjs.org/@smithy%2fnode-http-handler cache-miss
+73 silly fetch manifest @aws-crypto/sha256-browser@5.2.0
+74 silly packumentCache full:https://registry.npmjs.org/@aws-crypto%2fsha256-browser cache-miss
+75 http fetch GET 200 https://registry.npmjs.org/@smithy%2ftypes 312ms (cache revalidated)
+76 silly packumentCache full:https://registry.npmjs.org/@smithy%2ftypes set size:188679 disposed:false
+77 silly fetch manifest @aws-sdk/middleware-logger@^3.972.10
+78 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fmiddleware-logger cache-miss
+79 http fetch GET 200 https://registry.npmjs.org/@smithy%2fnode-http-handler 594ms (cache revalidated)
+80 silly packumentCache full:https://registry.npmjs.org/@smithy%2fnode-http-handler set size:258231 disposed:false
+81 silly fetch manifest @smithy/fetch-http-handler@^5.3.17
+82 silly packumentCache full:https://registry.npmjs.org/@smithy%2ffetch-http-handler cache-miss
+83 http fetch GET 200 https://registry.npmjs.org/@aws-crypto%2fsha256-js 863ms (cache revalidated)
+84 silly packumentCache full:https://registry.npmjs.org/@aws-crypto%2fsha256-js set size:54628 disposed:false
+85 silly fetch manifest @smithy/invalid-dependency@^4.2.14
+86 silly packumentCache full:https://registry.npmjs.org/@smithy%2finvalid-dependency cache-miss
+87 http fetch GET 200 https://registry.npmjs.org/@smithy%2futil-utf8 1054ms (cache revalidated)
+88 silly packumentCache full:https://registry.npmjs.org/@smithy%2futil-utf8 set size:50817 disposed:false
+89 silly fetch manifest @smithy/middleware-endpoint@^4.4.30
+90 silly packumentCache full:https://registry.npmjs.org/@smithy%2fmiddleware-endpoint cache-miss
+91 http fetch GET 200 https://registry.npmjs.org/@smithy%2furl-parser 1068ms (cache revalidated)
+92 silly packumentCache full:https://registry.npmjs.org/@smithy%2furl-parser set size:190843 disposed:false
+93 silly fetch manifest @smithy/node-config-provider@^4.3.14
+94 silly packumentCache full:https://registry.npmjs.org/@smithy%2fnode-config-provider cache-miss
+95 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2ftoken-providers 1081ms (cache revalidated)
+96 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2ftoken-providers set size:1154375 disposed:false
+97 silly fetch manifest @aws-sdk/util-user-agent-node@^3.973.18
+98 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2futil-user-agent-node cache-miss
+99 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2ftypes 1094ms (cache revalidated)
+100 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2ftypes set size:519855 disposed:false
+101 silly fetch manifest @smithy/util-body-length-node@^4.2.3
+102 silly packumentCache full:https://registry.npmjs.org/@smithy%2futil-body-length-node cache-miss
+103 http fetch GET 200 https://registry.npmjs.org/@smithy%2futil-endpoints 1137ms (cache revalidated)
+104 silly packumentCache full:https://registry.npmjs.org/@smithy%2futil-endpoints set size:176811 disposed:false
+105 silly fetch manifest @aws-sdk/middleware-user-agent@^3.972.32
+106 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fmiddleware-user-agent cache-miss
+107 http fetch GET 200 https://registry.npmjs.org/tslib 1291ms (cache revalidated)
+108 silly packumentCache full:https://registry.npmjs.org/tslib set size:108760 disposed:false
+109 silly fetch manifest @aws-sdk/middleware-host-header@^3.972.10
+110 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fmiddleware-host-header cache-miss
+111 http fetch GET 200 https://registry.npmjs.org/@smithy%2fsmithy-client 1313ms (cache revalidated)
+112 silly packumentCache full:https://registry.npmjs.org/@smithy%2fsmithy-client set size:551423 disposed:false
+113 silly fetch manifest @aws-sdk/region-config-resolver@^3.972.12
+114 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fregion-config-resolver cache-miss
+115 http fetch GET 200 https://registry.npmjs.org/@smithy%2fmiddleware-retry 1322ms (cache revalidated)
+116 silly packumentCache full:https://registry.npmjs.org/@smithy%2fmiddleware-retry set size:650071 disposed:false
+117 silly fetch manifest @smithy/util-defaults-mode-node@^4.2.52
+118 silly packumentCache full:https://registry.npmjs.org/@smithy%2futil-defaults-mode-node cache-miss
+119 http fetch GET 200 https://registry.npmjs.org/@smithy%2futil-middleware 1335ms (cache revalidated)
+120 silly packumentCache full:https://registry.npmjs.org/@smithy%2futil-middleware set size:160338 disposed:false
+121 silly fetch manifest @aws-sdk/util-user-agent-browser@^3.972.10
+122 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2futil-user-agent-browser cache-miss
+123 http fetch GET 200 https://registry.npmjs.org/@smithy%2fmiddleware-stack 1343ms (cache revalidated)
+124 silly packumentCache full:https://registry.npmjs.org/@smithy%2fmiddleware-stack set size:167718 disposed:false
+125 silly fetch manifest @smithy/util-body-length-browser@^4.2.2
+126 silly packumentCache full:https://registry.npmjs.org/@smithy%2futil-body-length-browser cache-miss
+127 http fetch GET 200 https://registry.npmjs.org/@smithy%2fconfig-resolver 1367ms (cache revalidated)
+128 silly packumentCache full:https://registry.npmjs.org/@smithy%2fconfig-resolver set size:267280 disposed:false
+129 silly fetch manifest @aws-sdk/credential-provider-node@^3.972.33
+130 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-provider-node cache-miss
+131 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2futil-endpoints 1375ms (cache revalidated)
+132 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2futil-endpoints set size:553538 disposed:false
+133 silly fetch manifest @smithy/middleware-content-length@^4.2.14
+134 silly packumentCache full:https://registry.npmjs.org/@smithy%2fmiddleware-content-length cache-miss
+135 http cache https://registry.npmjs.org/@aws-sdk%2fcredential-provider-node 17ms (cache hit)
+136 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-provider-node set size:1829095 disposed:false
+137 silly fetch manifest @smithy/util-defaults-mode-browser@^4.3.47
+138 silly packumentCache full:https://registry.npmjs.org/@smithy%2futil-defaults-mode-browser cache-miss
+139 http fetch GET 200 https://registry.npmjs.org/@aws-crypto%2fsha256-browser 1422ms (cache revalidated)
+140 silly packumentCache full:https://registry.npmjs.org/@aws-crypto%2fsha256-browser set size:64772 disposed:false
+141 silly fetch manifest @aws-sdk/middleware-recursion-detection@^3.972.11
+142 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fmiddleware-recursion-detection cache-miss
+143 http fetch GET 200 https://registry.npmjs.org/@smithy%2futil-base64 1469ms (cache revalidated)
+144 silly packumentCache full:https://registry.npmjs.org/@smithy%2futil-base64 set size:57505 disposed:false
+145 silly fetch manifest @smithy/core@^3.23.15
+146 silly packumentCache full:https://registry.npmjs.org/@smithy%2fcore cache-miss
+147 http fetch GET 200 https://registry.npmjs.org/@smithy%2fmiddleware-serde 1507ms (cache revalidated)
+148 silly packumentCache full:https://registry.npmjs.org/@smithy%2fmiddleware-serde set size:237373 disposed:false
+149 silly fetch manifest @aws-sdk/core@^3.974.2
+150 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcore cache-miss
+151 http fetch GET 200 https://registry.npmjs.org/@smithy%2fcore 1532ms (cache revalidated)
+152 silly packumentCache full:https://registry.npmjs.org/@smithy%2fcore set size:578485 disposed:false
+153 silly fetch manifest @smithy/hash-node@^4.2.14
+154 silly packumentCache full:https://registry.npmjs.org/@smithy%2fhash-node cache-miss
+155 http fetch GET 200 https://registry.npmjs.org/@smithy%2futil-retry 1538ms (cache revalidated)
+156 silly packumentCache full:https://registry.npmjs.org/@smithy%2futil-retry set size:194620 disposed:false
+157 silly fetch manifest @smithy/util-stream@^4.5.23
+158 silly packumentCache full:https://registry.npmjs.org/@smithy%2futil-stream cache-miss
+159 http fetch GET 200 https://registry.npmjs.org/@smithy%2ffetch-http-handler 993ms (cache revalidated)
+160 silly packumentCache full:https://registry.npmjs.org/@smithy%2ffetch-http-handler set size:268187 disposed:false
+161 silly fetch manifest @smithy/protocol-http@^5.3.14
+162 silly packumentCache full:https://registry.npmjs.org/@smithy%2fprotocol-http cache-miss
+163 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fmiddleware-logger 1296ms (cache revalidated)
+164 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fmiddleware-logger set size:590544 disposed:false
+165 silly fetch manifest @smithy/invalid-dependency@^4.2.14
+166 silly packumentCache full:https://registry.npmjs.org/@smithy%2finvalid-dependency cache-miss
+167 http fetch GET 200 https://registry.npmjs.org/@smithy%2finvalid-dependency 752ms (cache revalidated)
+168 silly packumentCache full:https://registry.npmjs.org/@smithy%2finvalid-dependency set size:192814 disposed:false
+169 silly fetch manifest @smithy/middleware-endpoint@^4.4.30
+170 silly packumentCache full:https://registry.npmjs.org/@smithy%2fmiddleware-endpoint cache-miss
+171 http fetch GET 200 https://registry.npmjs.org/@smithy%2fnode-config-provider 559ms (cache revalidated)
+172 silly packumentCache full:https://registry.npmjs.org/@smithy%2fnode-config-provider set size:232280 disposed:false
+173 silly fetch manifest @aws-sdk/middleware-websocket@^3.972.16
+174 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fmiddleware-websocket cache-miss
+175 http fetch GET 200 https://registry.npmjs.org/@smithy%2fmiddleware-endpoint 580ms (cache revalidated)
+176 silly packumentCache full:https://registry.npmjs.org/@smithy%2fmiddleware-endpoint set size:514851 disposed:false
+177 silly fetch manifest @aws-sdk/util-user-agent-node@^3.973.18
+178 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2futil-user-agent-node cache-miss
+179 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2futil-user-agent-node 560ms (cache revalidated)
+180 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2futil-user-agent-node set size:1083988 disposed:false
+181 silly fetch manifest @smithy/util-body-length-node@^4.2.3
+182 silly packumentCache full:https://registry.npmjs.org/@smithy%2futil-body-length-node cache-miss
+183 http cache https://registry.npmjs.org/@smithy%2finvalid-dependency 45ms (cache hit)
+184 silly packumentCache full:https://registry.npmjs.org/@smithy%2finvalid-dependency set size:192814 disposed:false
+185 silly packumentCache full:https://registry.npmjs.org/@smithy%2finvalid-dependency dispose
+186 silly fetch manifest @aws-sdk/middleware-user-agent@^3.972.32
+187 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fmiddleware-user-agent cache-miss
+188 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fmiddleware-user-agent 560ms (cache revalidated)
+189 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fmiddleware-user-agent set size:1045325 disposed:false
+190 silly fetch manifest @smithy/eventstream-serde-node@^4.2.14
+191 silly packumentCache full:https://registry.npmjs.org/@smithy%2feventstream-serde-node cache-miss
+192 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fregion-config-resolver 437ms (cache revalidated)
+193 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fregion-config-resolver set size:267112 disposed:false
+194 silly fetch manifest @aws-sdk/middleware-eventstream@^3.972.10
+195 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fmiddleware-eventstream cache-miss
+196 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2futil-user-agent-browser 462ms (cache revalidated)
+197 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2futil-user-agent-browser set size:671300 disposed:false
+198 silly fetch manifest @aws-sdk/middleware-host-header@^3.972.10
+199 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fmiddleware-host-header cache-miss
+200 http fetch GET 200 https://registry.npmjs.org/@smithy%2futil-defaults-mode-node 481ms (cache revalidated)
+201 silly packumentCache full:https://registry.npmjs.org/@smithy%2futil-defaults-mode-node set size:589480 disposed:false
+202 silly fetch manifest @smithy/util-body-length-browser@^4.2.2
+203 silly packumentCache full:https://registry.npmjs.org/@smithy%2futil-body-length-browser cache-miss
+204 http fetch GET 200 https://registry.npmjs.org/@smithy%2futil-body-length-browser 521ms (cache revalidated)
+205 silly packumentCache full:https://registry.npmjs.org/@smithy%2futil-body-length-browser set size:43930 disposed:false
+206 silly fetch manifest @aws-sdk/eventstream-handler-node@^3.972.14
+207 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2feventstream-handler-node cache-miss
+208 http fetch GET 200 https://registry.npmjs.org/@smithy%2futil-defaults-mode-browser 482ms (cache revalidated)
+209 silly packumentCache full:https://registry.npmjs.org/@smithy%2futil-defaults-mode-browser set size:535490 disposed:false
+210 silly fetch manifest @smithy/eventstream-serde-browser@^4.2.14
+211 silly packumentCache full:https://registry.npmjs.org/@smithy%2feventstream-serde-browser cache-miss
+212 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fmiddleware-recursion-detection 465ms (cache revalidated)
+213 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fmiddleware-recursion-detection set size:468325 disposed:false
+214 silly fetch manifest @smithy/middleware-content-length@^4.2.14
+215 silly packumentCache full:https://registry.npmjs.org/@smithy%2fmiddleware-content-length cache-miss
+216 http fetch GET 200 https://registry.npmjs.org/@smithy%2fmiddleware-content-length 521ms (cache revalidated)
+217 silly packumentCache full:https://registry.npmjs.org/@smithy%2fmiddleware-content-length set size:217671 disposed:false
+218 silly fetch manifest @smithy/eventstream-serde-config-resolver@^4.3.14
+219 silly packumentCache full:https://registry.npmjs.org/@smithy%2feventstream-serde-config-resolver cache-miss
+220 http fetch GET 200 https://registry.npmjs.org/@smithy%2fcore 437ms (cache revalidated)
+221 silly packumentCache full:https://registry.npmjs.org/@smithy%2fcore set size:578485 disposed:false
+222 silly packumentCache full:https://registry.npmjs.org/@smithy%2fcore dispose
+223 silly fetch manifest @smithy/property-provider@^4.2.14
+224 silly packumentCache full:https://registry.npmjs.org/@smithy%2fproperty-provider cache-miss
+225 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fcore 406ms (cache revalidated)
+226 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcore set size:800169 disposed:false
+227 silly fetch manifest @smithy/shared-ini-file-loader@^4.4.9
+228 silly packumentCache full:https://registry.npmjs.org/@smithy%2fshared-ini-file-loader cache-miss
+229 http fetch GET 200 https://registry.npmjs.org/@smithy%2fhash-node 442ms (cache revalidated)
+230 silly packumentCache full:https://registry.npmjs.org/@smithy%2fhash-node set size:202467 disposed:false
+231 silly fetch manifest @aws-sdk/credential-provider-env@^3.972.28
+232 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-provider-env cache-miss
+233 http fetch GET 200 https://registry.npmjs.org/@smithy%2futil-stream 484ms (cache revalidated)
+234 silly packumentCache full:https://registry.npmjs.org/@smithy%2futil-stream set size:470000 disposed:false
+235 silly fetch manifest @aws-sdk/credential-provider-ini@^3.972.32
+236 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-provider-ini cache-miss
+237 http fetch GET 200 https://registry.npmjs.org/@smithy%2fhash-node 2053ms (cache revalidated)
+238 silly packumentCache full:https://registry.npmjs.org/@smithy%2fhash-node set size:202467 disposed:false
+239 silly packumentCache full:https://registry.npmjs.org/@smithy%2fhash-node dispose
+240 silly fetch manifest @aws-sdk/credential-provider-sso@^3.972.32
+241 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-provider-sso cache-miss
+242 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fmiddleware-websocket 511ms (cache revalidated)
+243 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fmiddleware-websocket set size:438203 disposed:false
+244 silly fetch manifest @smithy/credential-provider-imds@^4.2.14
+245 silly packumentCache full:https://registry.npmjs.org/@smithy%2fcredential-provider-imds cache-miss
+246 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2futil-user-agent-node 524ms (cache revalidated)
+247 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2futil-user-agent-node set size:1083988 disposed:false
+248 silly fetch manifest @aws-sdk/credential-provider-http@^3.972.30
+249 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-provider-http cache-miss
+250 http fetch GET 200 https://registry.npmjs.org/@smithy%2futil-body-length-node 519ms (cache revalidated)
+251 silly packumentCache full:https://registry.npmjs.org/@smithy%2futil-body-length-node set size:50018 disposed:false
+252 silly fetch manifest @aws-sdk/credential-provider-process@^3.972.28
+253 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-provider-process cache-miss
+254 http fetch GET 200 https://registry.npmjs.org/@smithy%2feventstream-serde-node 486ms (cache revalidated)
+255 silly packumentCache full:https://registry.npmjs.org/@smithy%2feventstream-serde-node set size:205451 disposed:false
+256 silly fetch manifest @aws-sdk/credential-provider-web-identity@^3.972.32
+257 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fcredential-provider-web-identity cache-miss
+258 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fmiddleware-user-agent 544ms (cache revalidated)
+259 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fmiddleware-user-agent set size:1045325 disposed:false
+260 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fmiddleware-eventstream 472ms (cache revalidated)
+261 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fmiddleware-eventstream set size:631318 disposed:false
+262 http fetch GET 200 https://registry.npmjs.org/@smithy%2fprotocol-http 2264ms (cache revalidated)
+263 silly packumentCache full:https://registry.npmjs.org/@smithy%2fprotocol-http set size:202364 disposed:false
+264 http fetch GET 200 https://registry.npmjs.org/@aws-sdk%2fmiddleware-host-header 467ms (cache revalidated)
+265 silly packumentCache full:https://registry.npmjs.org/@aws-sdk%2fmiddleware-host-header set size:665546 disposed:false

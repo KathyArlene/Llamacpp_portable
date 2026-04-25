@@ -1,0 +1,31 @@
+0 verbose cli D:\TinyLM_Project\tools\node\node.exe D:\TinyLM_Project\tools\node\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:D:\TinyLM_Project\tools\node\node_modules\npm\npmrc
+4 silly config load:file:D:\TinyLM_Project\tools\openclaw\node_modules\openclaw\dist\extensions\deepgram\.openclaw-install-stage\.npmrc
+5 silly config load:file:C:\Users\liu14\.npmrc
+6 silly config load:file:D:\TinyLM_Project\tools\node\etc\npmrc
+7 verbose title npm install ws@^8.20.0
+8 verbose argv "install" "--ignore-scripts" "ws@^8.20.0"
+9 verbose logfile logs-max:10 dir:D:\TinyLM_Project\.npm-cache\_logs\2026-04-25T14_39_07_318Z-
+10 verbose logfile D:\TinyLM_Project\.npm-cache\_logs\2026-04-25T14_39_07_318Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest ws@^8.20.0
+15 silly packumentCache full:https://registry.npmjs.org/ws cache-miss
+16 http cache https://registry.npmjs.org/ws 8ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/ws set size:415737 disposed:false
+18 silly placeDep ROOT ws@8.20.0 OK for:  want: ^8.20.0
+19 silly reify moves {}
+20 silly audit bulk request { ws: [ '8.20.0' ] }
+21 http cache ws@https://registry.npmjs.org/ws/-/ws-8.20.0.tgz 0ms (cache hit)
+22 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 1241ms
+23 silly audit report {}
+24 silly ADD node_modules/ws
+25 verbose cwd D:\TinyLM_Project\tools\openclaw\node_modules\openclaw\dist\extensions\deepgram\.openclaw-install-stage
+26 verbose os Windows_NT 10.0.26200
+27 verbose node v22.19.0
+28 verbose npm  v10.9.3
+29 verbose exit 0
+30 info ok
